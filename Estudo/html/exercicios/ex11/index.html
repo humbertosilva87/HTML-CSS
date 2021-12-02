@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Abrir esse site em vários dispositivos</p>
+
+    <picture>
+        <source media="(max-width: 550px)" srcset="imagens/pequeno.jpg" type="image/jpg">
+        <source media="(max-width: 800px)" srcset="imagens/medio.jpg" type="image/jpg">
+        <img src="imagens/grande.jpg" alt="imagem flexicivel">
+    </picture>
+
+    <h1>Reproduzindo audio</h1>
+    <p>Reproduzindo audio com HTML5</p>
+    <audio src="midia/DEUS LO VEULT.mp3" controls></audio>
+    <audio src=""></audio>
+    <audio autopla="auto" controls>
+        <source src="midia/DEUS LO VEULT.mp3" type="audio/mpeg">
+        <p>Seu navegador não reproduz
+            <a href="midia/DEUS LO VEULT.mp3">Baixe aqui</a>
+
+        </p>
+    </audio>
+    
+</body>
+</html>

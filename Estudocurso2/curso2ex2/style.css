@@ -1,0 +1,15 @@
+#box1 {
+    background-color: rgb(241, 227, 99);
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+    font-size: 16pt;
+
+    border-top: black thick solid;
+    border-width: 50px;
+    border-bottom: double 50px chocolate;;
+    border-left: cornflowerblue dotted 50px;
+
+    border-right: 50px fuchsia groove;
+}

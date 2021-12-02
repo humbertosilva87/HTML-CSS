@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(236, 209, 176);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    color: brown;
+}
+
+h1#principal {
+text-align: center;
+background-color: gold;
+color: rgb(35, 145, 35);
+font-weight: 900;
+
+}
+
+h2{
+    color: chocolate;
+    font-weight: 700;
+}
+.basico {
+    color: dimgrey;
+}
+.intermediario {
+color: goldenrod;
+}
+
+.avançado {
+color: indianred;
+}

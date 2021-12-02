@@ -1,0 +1,47 @@
+#solida, #pontilhada, #tracejada, #dupla, #entalhada, #ressalto, #inset, #outset {
+    width: 400px;
+    height: 60px;
+    font-size: 16pt;
+    text-align: center;
+    line-height: 60px;
+    margin: auto;
+    margin-bottom: 30px;
+
+    border-width: 5px;
+    border-color: rgb(196, 37, 37);
+}
+
+#solida{
+    border-style: solid;
+
+}
+
+#pontilhada {
+    border-style: dotted
+    ;
+
+}
+
+#tracejada {
+    border-style: dashed;
+}
+
+#dupla {
+    border-style: double;
+}
+
+#entalhada {
+    border-style: groove;
+}
+
+#ressalto {
+    border-style: ridge;
+}
+
+#inset {
+    border-style: inset;
+}
+
+#outset {
+    border-style: outset;
+}

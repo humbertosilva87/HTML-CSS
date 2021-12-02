@@ -1,0 +1,9 @@
+#3DD973  escuro
+
+#6CD99B  medio
+
+#AEF2C6 claro 
+
+
+fonts
+https://fonts.google.com/specimen/Bebas+Neue?query=bebas

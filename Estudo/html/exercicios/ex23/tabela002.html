@@ -8,7 +8,12 @@
     <style>
         table{
             border-collapse: collapse;
-            width: 900px;
+            width: 600px;
+        }
+        caption{
+            color: brown;
+            font-size: 22px;
+            background-color: rgb(233, 227, 227);
         }
 
         td, th{
@@ -20,6 +25,10 @@
             background-color: burlywood;
         }
 
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+
         tfoot{
             background-color: burlywood;
         }
@@ -27,10 +36,13 @@
 </head>
 <body>
 
+
     <table>
+        <caption><strong>População das unidades federativas</strong></caption>
+        <caption></caption>
         <thead>
-            <th>Estado</th>
-            <th>População</th>
+            <th scope="col">Estado</th>
+            <th scope="col" style="width: 120px;" >População</th>
         </thead>
 
         <tbody>
@@ -148,7 +160,7 @@
         </tbody>
 
         <tfoot>
-            <th>Total da População:</th> 
+            <th scope="row">Total da População:</th> 
             <td>0000000</td>   
         </tfoot>
 
